@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color:  rgb(68, 65, 65) ;
+}
+.logo-first img{
+    width: 108px;
+    height: 27px;
+    vertical-align: middle;
+}
+.menu-main .list-first li{
+    list-style: none;                             
+}
+.list-first li a{
+    text-decoration: none;
+    font-size: 18px;
+    margin-left: 64px;
+}
+.menu-main .list-first{
+    display: flex;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 32px 70px;
+}
+.list-first li  a::after{
+    content: '';
+    display: block;
+    position: absolute;
+    height: 1px;
+    width: 0px;
+    margin-left: 65px;
+    margin-top: 5px;
+    background-color: black;
+}
+.list-first li a:hover::after{
+    width: 50px;
+}
+.para{
+    text-align: center;
+    margin-top: 40px;
+}
+.para .header-first{
+    font-size: 6em;
+    height: 190px;
+    font-weight: 500;
+    font-family: 'EB Garamond', serif;
+}   
+.para p{
+    font-size: 20px ;
+    font-family: 'Quicksand', sans-serif;
+    margin-top: 40px;
+    font-weight: 500;
+}
+.button-one {
+    margin-top: 75px;
+    padding-bottom: 150px;
+}
+.button-one  a{
+    text-decoration: none;
+    background-color: #323232;
+    color: #fff;
+    padding: 16px 33px;
+    border: 1px solid;
+    font-size: 15px ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.button-one a:hover{
+    background-color: rgba(75, 75, 75, 0.897);
+}
+.space img{
+    width: 100%;
+    height: 625px;
+}
+.wrapper{
+    background-color: rgb(235 234 237);
+}
+.menu{
+    text-align: center;
+    margin: 50px 0 90px 0;
+}
+.menu .title{
+    font-size: 4em;
+    font-family: 'EB Garamond', serif;
+    padding-top: 2px;
+}
+.list-two{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align:  center;
+    margin: 0 40px;
+    margin-top: 80px;
+}
+.list-two ul li{
+    list-style: none;
+}
+.content {
+    font-size: 17px;
+    font-family: 'EB Garamond', serif;
+    font-weight: 600;
+}
+.tiltle-one{
+    font-size:16px;
+    font-family: 'Quicksand', sans-serif;
+    padding-top: 5px;
+}
+.basic{
+    font-size: 16px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    padding-top: 30px;
+}
+.list-two li:last-child{
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    padding-top: 2px;
+    margin-bottom: 180px;
+}
+.header-two{
+    background-color: rgb(249 249 249 / 94%);;
+}
+.para-one{
+    text-align: center;
+    padding: 100px 0;
+    background-color: rgb(235 234 237);
+}
+.para-one .title-main{
+    font-size: 4em;
+    font-family: 'EB Garamond', serif;
+}
+.button-two {
+    margin-top: 75px;
+    margin-bottom: 25px;
+}
+.button-two a{
+    text-decoration: none;
+    background-color: #323232;
+    color: #fff;
+    padding: 16px 33px;
+    border: 1px solid;
+    font-size: 15px ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.button-two a:hover{
+    background-color: rgba(75, 75, 75, 0.897);
+}
+.footer{
+    text-align: center;
+    background-color: #353333;
+}
+.space-first{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+.space-first li {
+    list-style: none;
+    color: #f8f8f8;
+
+}
+.space-first li:first-child{
+    font-size: 17px;
+    font-family: 'EB Garamond', serif;
+    font-weight: 600;
+    margin-top: 80px;
+}
+.classic{
+    font-size: 16px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    padding-top: 5px;
+}
+.space-first li:last-child{
+    font-size: 16px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+}
+.space-first .one{
+    position: relative;
+    left: 40px;
+}
+.space-first .two{
+    position: relative;
+    left: 20px;
+}
+.space-first .three{
+    position: relative;
+    right: 120px;
+}
+.space-first a{
+    color: #f8f8f8;
+}
+.last span{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Quicksand', sans-serif;
+    color: #f8f8f8;
+}
+.last{
+    margin-top: 126px;
+    padding-bottom: 40px;
+}
